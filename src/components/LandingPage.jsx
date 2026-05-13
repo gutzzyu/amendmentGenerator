@@ -1,6 +1,7 @@
 import React from "react";
 import { FileText, Building2, Scale, Briefcase } from "lucide-react";
 import Header from "./Header";
+import logoImg from "../assets/logo.png";
 
 export default function LandingPage({ onSelectTool }) {
   const tools = [
@@ -28,7 +29,7 @@ export default function LandingPage({ onSelectTool }) {
       <main className="landing-main">
         <div className="hero-branding">
           <img 
-            src="/static/logo.png" 
+            src={logoImg} 
             className="hero-logo-img" 
             alt="STLAF DRAFTING" 
           />

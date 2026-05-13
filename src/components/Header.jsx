@@ -1,5 +1,6 @@
 import React from "react";
 import { Home } from "lucide-react";
+import headerLogo from "../assets/header.png";
 
 export default function Header({ showHomeButton, onHome, type = 'CORPORATE' }) {
   return (
@@ -7,7 +8,7 @@ export default function Header({ showHomeButton, onHome, type = 'CORPORATE' }) {
       <div className="header-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="logo-section-wrapper">
           <img 
-            src="/static/header.png" 
+            src={headerLogo} 
             className="header-logo-img" 
             alt="Logo" 
             onError={(e) => e.target.style.display = 'none'} 
