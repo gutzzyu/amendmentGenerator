@@ -525,31 +525,4 @@ table.lt.sig-table th:nth-child(3), table.lt.sig-table td:nth-child(3) { width: 
   }
 }
 
-.hero-logo-replacement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.logo-main {
-  font-size: 8rem;
-  font-weight: 900;
-  color: var(--gold);
-  line-height: 1;
-  letter-spacing: -2px;
-}
-.logo-sub {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: #8b949e;
-  letter-spacing: 8px;
-  margin-top: 10px;
-  text-transform: uppercase;
-}
-@media (max-width: 768px) {
-  .logo-main { font-size: 5rem; }
-  .logo-sub { font-size: 1rem; letter-spacing: 4px; }
-}
-
 /* ─────────────── END LANDING PAGE STYLES ─────────────── */

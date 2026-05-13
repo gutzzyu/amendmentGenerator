@@ -27,10 +27,11 @@ export default function LandingPage({ onSelectTool }) {
       {/* Hero Section */}
       <main className="landing-main">
         <div className="hero-branding">
-          <div className="hero-logo-replacement">
-            <span className="logo-main">STLAF</span>
-            <span className="logo-sub">DRAFTING ENGINE</span>
-          </div>
+          <img 
+            src="/static/logo.png" 
+            className="hero-logo-img" 
+            alt="STLAF DRAFTING" 
+          />
         </div>
 
         {/* Tools Grid */}
