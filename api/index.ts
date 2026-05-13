@@ -127,9 +127,6 @@ app.post("/api/extract", upload.single("file"), async (req, res) => {
   }
 });
 
-// Serve static files if any
-app.use("/static", express.static(path.join(process.cwd(), "static")));
-
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
     const { createServer: createViteServer } = await import("vite");

@@ -91,12 +91,12 @@ export default function Step1BaselinePartnership({ s, setActiveTab }) {
 
   return (
     <div>
-      <h2>Step 1 — Baseline Partnership Data <span style={{fontSize:'.8rem',color:'#8b949e',fontWeight:400}}>(Current "FROM" State)</span></h2>
+      <h2>Step 1 — Baseline Partnership AOP Data <span style={{fontSize:'.8rem',color:'#8b949e',fontWeight:400}}>(Current "FROM" State)</span></h2>
 
       {/* Upload card */}
       <div className="card">
-        <h3>📂 Upload Existing Articles — AI Auto-Extraction</h3>
-        <p style={{fontSize:'.8rem',color:'#8b949e',margin:'0 0 10px 0'}}>Upload the partnership's current articles (PDF). The AI will read the document and fill all fields automatically.</p>
+        <h3>📂 Upload Existing AOP — AI Auto-Extraction</h3>
+        <p style={{fontSize:'.8rem',color:'#8b949e',margin:'0 0 10px 0'}}>Upload the partnership's current AOP (PDF). The AI will read the document and fill all fields automatically.</p>
         <input type="file" accept=".pdf" onChange={handleFile} />
         {fileStatus && (
           <div style={{fontSize:'.82rem',marginTop:8}}>

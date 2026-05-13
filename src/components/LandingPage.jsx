@@ -27,12 +27,10 @@ export default function LandingPage({ onSelectTool }) {
       {/* Hero Section */}
       <main className="landing-main">
         <div className="hero-branding">
-          <img 
-            src="/static/logo.png" 
-            className="hero-logo-img" 
-            alt="STLAF DRAFTING" 
-            onError={(e) => e.target.src = 'https://via.placeholder.com/400x150?text=STLAF+DRAFTING'}
-          />
+          <div className="hero-logo-replacement">
+            <span className="logo-main">STLAF</span>
+            <span className="logo-sub">DRAFTING ENGINE</span>
+          </div>
         </div>
 
         {/* Tools Grid */}
